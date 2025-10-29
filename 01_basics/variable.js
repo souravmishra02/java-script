@@ -6,5 +6,6 @@ accountCity = "Jaipur"
 accountEmail = "sarthak@gail.com"
 accountPassword = "dfrw233"
 accountCity = "bengaluru"
+let accountState
 //  always use const and let because for the scope related isssue like  block scope and fucntional scope, preferred not to use var
-console.table([accountEmail, accountPassword, accountCity])
+console.table([accountEmail, accountPassword, accountCity, accountState])
