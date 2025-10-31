@@ -22,4 +22,20 @@ const max = 20;
 
 
 
-console.log(Math.floor(Math.random()*(max - min + 1))+ min)
+// console.log(Math.floor(Math.random()*(max - min + 1))+ min)
+
+
+let num = 10;
+
+let result = num ++ + ++num
+// console.log(result);
+
+let like = 100
+
+let likesincre = function(){
+    return ++like
+}
+console.log(likesincre());
+console.log(like);
+
+
