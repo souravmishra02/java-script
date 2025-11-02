@@ -17,7 +17,7 @@ function one(){
 
     function two(){
         const website = "youtube"
-        console.log(username);
+        // console.log(username);
         
     }
     // console.log(website);   it will give error as it is outside the scope 
@@ -26,3 +26,12 @@ function one(){
 
 }
 one() // this function is called 
+
+const username = {
+    name: "sourav",
+    age: 20,
+    email : "souravku@gmail.com"
+}
+
+console.log(username.name);
+
